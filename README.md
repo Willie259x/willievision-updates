@@ -17,7 +17,8 @@ WillieVision is a TiviMate-style IPTV player for Android TV boxes (NVIDIA Shield
    - **Android TV / Google TV:** Settings → Apps → Security & restrictions → Unknown sources → turn on **Downloader**
    - **Fire TV:** Settings → My Fire TV → Developer options → Install unknown apps → **Downloader**
 3. Open Downloader, enter this link and press **Go**:
-   `https://github.com/Willie259x/willievision-updates/raw/main/WillieVision.apk`
+   **`tinyurl.com/willievision`**
+   (Full link, if the short one ever fails: `https://github.com/Willie259x/willievision-updates/raw/main/WillieVision.apk`)
 4. Choose **Install**, then **Open**.
 
 ## 2. Log in
