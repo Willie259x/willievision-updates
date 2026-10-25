@@ -48,7 +48,7 @@ The TV guide is the home screen:
 - **Left column:**
   - Quick buttons: 🎬 **Movies**, 📺 **Series**, 🔍 **Search**, ⚙ **Settings**
   - Your **playlist name** button, to switch playlists in one press
-  - Your categories: 🏆 **My Games**, ★ **Favorites**, 🕘 **Recent**, your own 📁 groups, **All channels**, and your provider's groups
+  - Your categories: 🏆 **My Games**, ★ **Favorites**, 🕘 **Recent**, your own 📁 groups, and your provider's groups
 - **Guide grid:** channel logos and names down the side, shows across, with a line marking *now*
 
 ### Remote in the guide
@@ -60,6 +60,7 @@ The TV guide is the home screen:
 | **OK** | **Show on now:** watch full screen<br>**Earlier show (⟲):** watch it from the start (catch-up)<br>**Later show:** Remind / Record / Record every episode / Watch menu |
 | **Hold OK** (or Menu) | Channel options (see section 5) |
 | **Back** | Jump back to *now* → go to the categories → press twice to exit |
+| **Hold Back** | Straight back to the channel you were last watching, full screen |
 
 ---
 
