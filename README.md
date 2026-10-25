@@ -43,13 +43,13 @@ Then press **Connect**. The first time, loading the channels and TV guide can ta
 
 The TV guide is the home screen:
 
-- **Top left:** details of the selected show and the clock
+- **Top left:** details of the selected show and the clock, with the show's artwork softly in the background (when your guide has pictures)
 - **Top right:** a live preview of the channel you last watched, with its quality, for example **1080p · 5.1**
 - **Left column:**
   - Quick buttons: 🎬 **Movies**, 📺 **Series**, 🔍 **Search**, ⚙ **Settings**
   - Your **playlist name** button, to switch playlists in one press
   - Your categories: 🏆 **My Games**, ★ **Favorites**, 🕘 **Recent**, your own 📁 groups, and your provider's groups
-- **Guide grid:** channel logos and names down the side, shows across, with a line marking *now*
+- **Guide grid:** channel logos and names down the side, shows across. A line with the current time marks *now*, and shows on now are tagged **LIVE**.
 
 ### Remote in the guide
 
@@ -61,6 +61,7 @@ The TV guide is the home screen:
 | **Hold OK** (or Menu) | Channel options (see section 5) |
 | **Back** | Jump back to *now* → go to the categories → press twice to exit |
 | **Hold Back** | Straight back to the channel you were last watching, full screen |
+| **⏯ Play/Pause** | Watch the channel in the preview window full screen |
 
 ---
 
@@ -78,6 +79,8 @@ The TV guide is the home screen:
 | Menu / Guide | Back to the guide. With picture-in-picture on, the channel keeps playing in a corner. |
 
 While a channel loads, a card shows its logo, name and what's on, instead of a black screen.
+
+The info bar along the bottom shows the channel, the show, its time and how long is left, plus badges: **LIVE** (or **REWOUND** / **CATCH-UP**), the picture quality (**4K**, **FHD**, **HD**, **SD**), frame rate, sound (**5.1**, **7.1**, **STEREO**), **DOLBY** and **CC** when subtitles are on.
 
 ### 🔊 Audio, 💬 subtitles & 😴 sleep timer
 
@@ -139,9 +142,11 @@ The guide remembers where you were in each category (channel and scroll position
 
 ## 7. 🎬 Movies & 📺 Series
 
-- Browse your provider's on-demand titles as a poster wall.
+- The top of the screen shows a big picture of the title you're on, with its rating, year, runtime and plot.
+- Below are rows of posters you scroll sideways: **Continue watching**, your Trakt rows, **Recently added** (Movies) and one row per category. ▲▼ move between rows, ◀▶ along a row.
+- The list on the left jumps straight to any row. **Back** from the posters returns to the list.
 - Each title has its own page with a big backdrop, the rating ★, age rating, year, runtime, plot and cast, plus **▶ Play / Resume**, **Play from start** and **🎬 Trailer** (opens in the YouTube app, when the provider includes one).
-- **🔍 Search movies / series** at the top of the categories finds any title.
+- **🔍 Search movies / series** at the top of the list finds any title. The results appear as the first row.
 - **Continue watching** remembers where you stopped.
 - **Series** play the next episode automatically.
 
@@ -186,7 +191,8 @@ Settings opens as a panel on the right, in sections: **Look**, **Channels & guid
 | Buffer size | Normal, Large or Extra large. Bigger means fewer stalls on a shaky connection, but a slower start. |
 | Backup WillieVision | Copy your whole setup to another box on your network, or save/restore a backup file |
 | Update TV guide | Refresh the channels and guide now |
-| Check for updates | Download and install the newest WillieVision |
+| Check for updates | Download and install the newest WillieVision. Shows **New: v…** when an update is waiting. |
+| Start with the Shield | Open WillieVision automatically when the Shield turns on. Off unless you turn it on. The first time, Android asks you to allow WillieVision to "display over other apps": turn it on and press Back. |
 | Start-up screen | Open to the guide, to Favorites, or straight into the last channel full screen |
 | Picture-in-picture | Keep the channel playing in a corner while you browse the guide (if your box supports it) |
 | Auto-refresh | Refresh channels and guide every night (around 4 AM) or every 12 hours, even when the app is closed |
@@ -201,7 +207,7 @@ Settings opens as a panel on the right, in sections: **Look**, **Channels & guid
 | Style | Modern Glass, Clean Flat, WillieVision Retro, Midnight OLED, Neon Synthwave, Classic TiviMate, Cinema, Aurora / Ocean, Black & Gold, Silver & Black |
 | Accent colour | 10 presets, or **🎨 Any colour…** from 48 shades |
 | Guide size | Compact, Normal, Large |
-| Font | Standard, Modern, Rounded, Bold Condensed, Retro, Sporty, Futuristic, Elegant, Fun |
+| Font | Inter (the WillieVision default), TV standard, Modern, Rounded, Bold Condensed, Retro, Sporty, Futuristic, Elegant, Fun |
 | Background picture | None, Northern lights, City at dusk, Prairie night, Waves, City lights blur |
 | Home title | Playlist name, a greeting ("Good evening, …"), or your own text |
 | Clock | 24-hour, show date, show seconds, big clock |
@@ -215,7 +221,7 @@ Settings opens as a panel on the right, in sections: **Look**, **Channels & guid
 
 ### Updates
 
-WillieVision checks for a new version once a day. You can also check any time from **⚙ Settings → Check for updates**. After an update, a **✨ What's new** card lists the new features once.
+WillieVision looks for a new version when it opens, when you come back to the guide, and every few hours while it's on. When there is one, a card shows the new version number and what's new, with **Update now** or **Later**. Later means it asks again the next day. You can also check any time from **⚙ Settings → Check for updates**. After an update, a **✨ What's new** card lists the new features once.
 
 The first update asks you to allow WillieVision to install apps. Turn on **Allow from this source**, press Back, and choose Update again.
 

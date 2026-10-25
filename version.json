@@ -1,7 +1,7 @@
 {
-    "versionCode": 33,
-    "versionName": "4.0",
+    "versionCode": 34,
+    "versionName": "4.1",
     "apk": "WillieVision.apk",
-    "sha256": "bf80db5d9b3133073ba0382ca6d7abe761adf0e6ed12f73fb8b7b5848458d785",
-    "notes": ""
+    "sha256": "14d1700aeb1c7ff16c0c588ec9776d3f25d2df42c989f1fb5760d8a703a294e5",
+    "notes": "Movies & Series have a new look: a big picture of the title you're on, and rows of posters you scroll sideways\nNew player info bar with badges: LIVE, 4K / HD, 5.1, Dolby, CC\nShow artwork behind the home screen, and a live time marker in the guide\nPress Play/Pause in the guide to watch the preview channel full screen\nSettings > Start with the Shield (off unless you turn it on)\nNew font, icon, banner and start-up animation\nA pop-up tells you when a new version is ready"
 }
