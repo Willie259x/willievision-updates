@@ -23,13 +23,19 @@ WillieVision is a TiviMate-style IPTV player for Android TV boxes (NVIDIA Shield
 
 ## 2. Log in
 
-Enter the details from your IPTV provider:
+Choose how your provider gave you your service:
 
+**● Xtream login** (best: channels, movies & series, catch-up)
 - **Playlist name:** optional, anything you like
 - **Server URL:** for example `http://example.com:8080`. Include `http://` and the port.
 - **Username** and **Password**
 
-Then press **Connect**. The first time, loading the channels and TV guide can take a minute.
+**● M3U link** (live channels)
+- Paste the **M3U playlist link** your provider gave you.
+- **TV guide link** is optional. Many M3U playlists already include one, and WillieVision uses it automatically.
+- If the link is an Xtream-style link (it contains `username=` and `password=`), WillieVision switches to the full Xtream login for you, so you also get movies and series.
+
+Then press **Connect**. The first time, loading the channels and TV guide can take a minute. You can add more playlists, or edit one, any time under **⚙ Settings → Playlists**.
 
 ---
 
@@ -63,11 +69,22 @@ The TV guide is the home screen:
 |---|---|
 | ▲ ▼ / CH+ CH− | Next or previous channel |
 | **OK** | Channel list |
+| **Hold OK** | Options: 🔊 audio track, 💬 subtitles / closed captions, 😴 sleep timer, stream info, record |
 | ◀ ▶ / Info | Now and next info bar |
 | **◀ twice** | Flip back to the previous channel |
 | **▶ twice** | Stream info: resolution, frame rate, codec, bitrate, buffer and dropped frames |
 | ⏺ Record (or red button) | Record this channel now |
 | Menu / Guide | Back to the guide. With picture-in-picture on, the channel keeps playing in a corner. |
+
+While a channel loads, a card shows its logo, name and what's on, instead of a black screen.
+
+### 🔊 Audio, 💬 subtitles & 😴 sleep timer
+
+**Hold OK** while watching anything (live TV, catch-up, movies or episodes; **Menu** also works in movies):
+
+- **Audio:** pick another audio track, like French or English commentary, or 5.1 vs stereo. WillieVision remembers the language for everything you watch next.
+- **Subtitles:** turn closed captions or subtitles on or off. Your choice stays on (or off) across channels.
+- **Sleep timer:** 15 minutes to 2 hours, or **at the end of this show / movie**. A minute before, a warning pops up with **Keep watching**. Otherwise WillieVision closes so the TV can go to sleep. Recordings keep going.
 
 ### ⏸ Pause & rewind live TV
 
@@ -99,7 +116,7 @@ On channels marked **⟲**, if your provider offers catch-up, choose an earlier 
 - **🖼 Change logo:** use the TV guide's logo, a picture link, no logo, or the original
 - **📺 Fix the guide for this channel:** if a channel shows the wrong listings, search for and pick the right guide entry
 - **Hide channel / hide category**
-- **⧉ Multi-view:** watch two channels side by side. This needs a plan that allows 2 connections.
+- **⧉ Multi-view:** choose **2 channels side by side** or **4 channels in a 2×2 grid**. The sound follows the window you're on. With 4, use ◀▶▲▼ to move between windows and OK to pick a channel. Each window uses one connection, so your plan needs to allow 2 or 4.
 
 **Hold OK on a category** in the left column for:
 
@@ -111,6 +128,8 @@ On channels marked **⟲**, if your provider offers catch-up, choose an earlier 
 
 **⚙ Settings → Manage channels** shows every category and channel with tick boxes.
 
+The guide remembers where you were in each category (channel and scroll position), even after the app restarts.
+
 ## 6. 🔍 Search
 
 - Find channels by name, and shows by title in the TV guide.
@@ -120,9 +139,19 @@ On channels marked **⟲**, if your provider offers catch-up, choose an earlier 
 ## 7. 🎬 Movies & 📺 Series
 
 - Browse your provider's on-demand titles as a poster wall.
+- Each title has its own page with a big backdrop, the rating ★, age rating, year, runtime, plot and cast, plus **▶ Play / Resume**, **Play from start** and **🎬 Trailer** (opens in the YouTube app, when the provider includes one).
 - **🔍 Search movies / series** at the top of the categories finds any title.
 - **Continue watching** remembers where you stopped.
 - **Series** play the next episode automatically.
+
+### ✔ Trakt.tv
+
+If you use [Trakt](https://trakt.tv), connect it under **⚙ Settings → Trakt.tv**. The TV shows a code: go to **trakt.tv/activate** on your phone or computer and type it in. Each box connects separately.
+
+- **Watched history:** movies and episodes you watch are marked watched on Trakt automatically. Posters show a **✓** for movies you've watched anywhere, and episodes show ✓ too.
+- **Resume anywhere:** stop partway and Trakt remembers where. Another box, or any Trakt app, offers **Resume from 52% (Trakt)**.
+- **New rows:** Series has **⏭ Up next (Trakt)** and **🔖 Trakt watchlist**. Movies has **⏯ Paused on Trakt** and **🔖 Trakt watchlist**. Only titles your provider actually has are shown.
+- **Ratings:** each title's page shows Trakt's rating (♥ %). When a movie or the last episode you're watching ends, you can rate it 1–10. Turn that off in **Settings → Trakt.tv**.
 
 ## 8. 🔔 Reminders & 🏆 My Games
 
@@ -160,6 +189,7 @@ On channels marked **⟲**, if your provider offers catch-up, choose an earlier 
 | Auto-refresh | Refresh channels and guide every night (around 4 AM) or every 12 hours, even when the app is closed |
 | Recording | Start early or end late, and manage series recordings |
 | Parental lock | A 4-digit PIN locks chosen categories (they show 🔒). The PIN unlocks them for 2 hours. |
+| Trakt.tv | Connect your Trakt account: watched history, watchlist, up next, resume anywhere and ratings |
 
 ## 11. Appearance
 
@@ -182,7 +212,7 @@ On channels marked **⟲**, if your provider offers catch-up, choose an earlier 
 
 ### Updates
 
-WillieVision checks for a new version once a day. You can also check any time from **⚙ Settings → Check for updates**.
+WillieVision checks for a new version once a day. You can also check any time from **⚙ Settings → Check for updates**. After an update, a **✨ What's new** card lists the new features once.
 
 The first update asks you to allow WillieVision to install apps. Turn on **Allow from this source**, press Back, and choose Update again.
 
