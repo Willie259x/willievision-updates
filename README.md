@@ -172,6 +172,8 @@ If you use [Trakt](https://trakt.tv), connect it under **⚙ Settings → Trakt.
 
 ## 10. ⚙ Settings
 
+Settings opens as a panel on the right, in sections: **Look**, **Channels & guide**, **Playback**, **Recording**, **Account** and **System**. Each row shows a short description and its current setting.
+
 | Setting | What it does |
 |---|---|
 | Recordings | Your recordings library |
@@ -188,7 +190,7 @@ If you use [Trakt](https://trakt.tv), connect it under **⚙ Settings → Trakt.
 | Start-up screen | Open to the guide, to Favorites, or straight into the last channel full screen |
 | Picture-in-picture | Keep the channel playing in a corner while you browse the guide (if your box supports it) |
 | Auto-refresh | Refresh channels and guide every night (around 4 AM) or every 12 hours, even when the app is closed |
-| Recording | Start early or end late, and manage series recordings |
+| Recording options | Start early or end late, and manage series recordings |
 | Parental lock | A 4-digit PIN locks chosen categories (they show 🔒). The PIN unlocks them for 2 hours. |
 | Trakt.tv | Connect your Trakt account: watched history, watchlist, up next, resume anywhere and ratings |
 
