@@ -1,7 +1,7 @@
 {
-    "versionCode": 35,
-    "versionName": "4.2",
+    "versionCode": 37,
+    "versionName": "4.4",
     "apk": "WillieVision.apk",
-    "sha256": "473011c6c7855391d225b15fc68ec8a3b050a3ca01a29d2ce68093f2abe52690",
-    "notes": "The guide stays on live: it moves along with the clock and comes back to now when you return\nSettings menus: Back goes up one level instead of closing everything\nChanging the look no longer interrupts the channel in the preview window\nThe red LIVE tag is only on live sports and news (Settings > LIVE badge in the guide)\nAppearance > See-through has been removed"
+    "sha256": "10ee2517a4963e65237a67f1a0dcf347f399203f60a4d9df102260d9aa8f7fb7",
+    "notes": "The TV guide is now kept in a database on the box: faster start-up and much less memory\nFix the guide for a channel: the best matching guide channels are listed straight away, with their logo and what's on now\nFolders for all playlists: hold OK on a channel > Add to a group > New folder for all playlists. Channels from any playlist, shown on every playlist, and they play from their own playlist"
 }

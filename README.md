@@ -48,7 +48,7 @@ The TV guide is the home screen:
 - **Left column:**
   - Quick buttons: 🎬 **Movies**, 📺 **Series**, 🔍 **Search**, ⚙ **Settings**
   - Your **playlist name** button, to switch playlists in one press
-  - Your categories: 🏆 **My Games**, ★ **Favorites**, 🕘 **Recent**, your own 📁 groups, and your provider's groups
+  - Your categories: 🏆 **My Games**, ★ **Favorites**, 🕘 **Recent**, your own 📁 groups, 📂 folders for all playlists, and your provider's groups
 - **Guide grid:** channel logos and names down the side, shows across. A line with the current time marks *now*, and the guide moves along with the clock so it always opens on what's on now. Live sports and news are tagged **LIVE** (change this in Settings → LIVE badge in the guide).
 
 ### Remote in the guide
@@ -62,6 +62,8 @@ The TV guide is the home screen:
 | **Back** | Jump back to *now* → go to the categories → press twice to exit |
 | **Hold Back** | Straight back to the channel you were last watching, full screen |
 | **⏯ Play/Pause** | Watch the channel in the preview window full screen |
+
+The channel that's playing has a **▶** on its logo and its name in your accent colour. When you press Back from full screen, it keeps playing in the preview window without reloading.
 
 ---
 
@@ -116,9 +118,10 @@ On channels marked **⟲**, if your provider offers catch-up, choose an earlier 
 - **★ Add to / remove from Favorites**
 - **↕ Move:** reorder Favorites. Use ▲▼ to move, then OK to drop.
 - **📁 Add to a group:** make your own groups like "Hockey" or "Kids". Hold OK on a group in the left column to rename, move or delete it.
+- **📂 Folders for all playlists:** in the same menu, choose **＋ New folder for all playlists**. Add channels to it from any of your playlists; the folder shows on every playlist, and each channel plays from its own playlist without switching. (Reminders and recording work on channels from the playlist you're on.)
 - **✎ Rename channel**, with an **Original name** button to undo
 - **🖼 Change logo:** use the TV guide's logo, a picture link, no logo, or the original
-- **📺 Fix the guide for this channel:** if a channel shows the wrong listings, search for and pick the right guide entry
+- **📺 Fix the guide for this channel:** if a channel shows the wrong listings, WillieVision lists the best-matching guide channels with their logo and what's on now — pick one, or search by name
 - **Hide channel / hide category**
 - **⧉ Multi-view:** choose **2 channels side by side** or **4 channels in a 2×2 grid**. The sound follows the window you're on. With 4, use ◀▶▲▼ to move between windows and OK to pick a channel. Each window uses one connection, so your plan needs to allow 2 or 4.
 
@@ -147,6 +150,7 @@ The guide remembers where you were in each category (channel and scroll position
 - The list on the left jumps straight to any row. **Back** from the posters returns to the list.
 - Each title has its own page with a big backdrop, the rating ★, age rating, year, runtime, plot and cast, plus **▶ Play / Resume**, **Play from start** and **🎬 Trailer** (opens in the YouTube app, when the provider includes one).
 - **🔍 Search movies / series** at the top of the list finds any title. The results appear as the first row.
+- **★ Favourites:** hold **OK** on any poster to add it to your ★ Favourites row (hold OK again to remove it). Movies and Series each have their own, for each playlist.
 - **Continue watching** remembers where you stopped.
 - **Series** play the next episode automatically.
 
@@ -191,7 +195,8 @@ Settings opens as a panel on the right, in sections: **Look**, **Channels & guid
 | Pause & rewind live TV | Turn the 30-minute live buffer on or off |
 | Buffer size | Normal, Large or Extra large. Bigger means fewer stalls on a shaky connection, but a slower start. |
 | Backup WillieVision | Copy your whole setup to another box on your network, or save/restore a backup file |
-| Update TV guide | Refresh the channels and guide now |
+| Refresh playlist | Download the channel list, movies and series again from your provider (new channels, new titles). Your favourites, hidden channels and groups are kept. |
+| Update TV guide | Download the latest TV guide now |
 | Check for updates | Download and install the newest WillieVision. Shows **New: v…** when an update is waiting. |
 | Start with the Shield | Open WillieVision automatically when the Shield turns on. Off unless you turn it on. The first time, Android asks you to allow WillieVision to "display over other apps": turn it on and press Back. |
 | Start-up screen | Open to the guide, to Favorites, or straight into the last channel full screen |
