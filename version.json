@@ -1,7 +1,7 @@
 {
-    "versionCode": 34,
-    "versionName": "4.1",
+    "versionCode": 35,
+    "versionName": "4.2",
     "apk": "WillieVision.apk",
-    "sha256": "14d1700aeb1c7ff16c0c588ec9776d3f25d2df42c989f1fb5760d8a703a294e5",
-    "notes": "Movies & Series have a new look: a big picture of the title you're on, and rows of posters you scroll sideways\nNew player info bar with badges: LIVE, 4K / HD, 5.1, Dolby, CC\nShow artwork behind the home screen, and a live time marker in the guide\nPress Play/Pause in the guide to watch the preview channel full screen\nSettings > Start with the Shield (off unless you turn it on)\nNew font, icon, banner and start-up animation\nA pop-up tells you when a new version is ready"
+    "sha256": "473011c6c7855391d225b15fc68ec8a3b050a3ca01a29d2ce68093f2abe52690",
+    "notes": "The guide stays on live: it moves along with the clock and comes back to now when you return\nSettings menus: Back goes up one level instead of closing everything\nChanging the look no longer interrupts the channel in the preview window\nThe red LIVE tag is only on live sports and news (Settings > LIVE badge in the guide)\nAppearance > See-through has been removed"
 }

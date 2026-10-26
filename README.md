@@ -49,7 +49,7 @@ The TV guide is the home screen:
   - Quick buttons: 🎬 **Movies**, 📺 **Series**, 🔍 **Search**, ⚙ **Settings**
   - Your **playlist name** button, to switch playlists in one press
   - Your categories: 🏆 **My Games**, ★ **Favorites**, 🕘 **Recent**, your own 📁 groups, and your provider's groups
-- **Guide grid:** channel logos and names down the side, shows across. A line with the current time marks *now*, and shows on now are tagged **LIVE**.
+- **Guide grid:** channel logos and names down the side, shows across. A line with the current time marks *now*, and the guide moves along with the clock so it always opens on what's on now. Live sports and news are tagged **LIVE** (change this in Settings → LIVE badge in the guide).
 
 ### Remote in the guide
 
@@ -177,7 +177,7 @@ If you use [Trakt](https://trakt.tv), connect it under **⚙ Settings → Trakt.
 
 ## 10. ⚙ Settings
 
-Settings opens as a panel on the right, in sections: **Look**, **Channels & guide**, **Playback**, **Recording**, **Account** and **System**. Each row shows a short description and its current setting.
+Settings opens as a panel on the right, in sections: **Look**, **Channels & guide**, **Playback**, **Recording**, **Account** and **System**. Each row shows a short description and its current setting. **Back** goes up one level (for example Font → Appearance → Settings → guide). Changes to the look apply straight away, and the channel in the preview window keeps playing.
 
 | Setting | What it does |
 |---|---|
@@ -186,6 +186,7 @@ Settings opens as a panel on the right, in sections: **Look**, **Channels & guid
 | Playlists | Add, switch, **edit** (server, username, password) or remove playlists |
 | Manage channels | Show or hide channels and categories with tick boxes |
 | TV guide sources | Use a different guide, or **add extra guides** for channels the main one misses |
+| LIVE badge in the guide | **Sports & news only** (default): the red LIVE tag only marks games and newscasts that are on now. **Every show on now**, or **Off**. |
 | Match TV frame rate | Switches the TV to suit each show or movie for smoother motion. The screen blinks for a second when it switches. |
 | Pause & rewind live TV | Turn the 30-minute live buffer on or off |
 | Buffer size | Normal, Large or Extra large. Bigger means fewer stalls on a shaky connection, but a slower start. |
@@ -212,7 +213,7 @@ Settings opens as a panel on the right, in sections: **Look**, **Channels & guid
 | Home title | Playlist name, a greeting ("Good evening, …"), or your own text |
 | Clock | 24-hour, show date, show seconds, big clock |
 | Home screen parts | Show or hide the preview window, programme details and quick buttons. When the quick buttons are hidden, Movies, Series, Search and Playlists are in the **☰ Menu** button. |
-| Card corners / spacing / see-through | Fine-tune the shape of the guide cards and how see-through the panels are |
+| Card corners / spacing | Fine-tune the shape of the guide cards and the space between them |
 
 ### 💾 Copying your setup to a second box
 
