@@ -1,7 +1,7 @@
 {
-    "versionCode": 37,
-    "versionName": "4.4",
+    "versionCode": 38,
+    "versionName": "4.5",
     "apk": "WillieVision.apk",
-    "sha256": "10ee2517a4963e65237a67f1a0dcf347f399203f60a4d9df102260d9aa8f7fb7",
-    "notes": "The TV guide is now kept in a database on the box: faster start-up and much less memory\nFix the guide for a channel: the best matching guide channels are listed straight away, with their logo and what's on now\nFolders for all playlists: hold OK on a channel > Add to a group > New folder for all playlists. Channels from any playlist, shown on every playlist, and they play from their own playlist"
+    "sha256": "fbd3ea9d96f605fcf4c40e454efa8fa36f4a8e0a52a0f86ffbe392858c36afc3",
+    "notes": "The guide goes full width: the left column slides away while you're in the guide; \u25c0 or Back brings it back\nRewind past the start of what you've watched on \u27f2 catch-up channels: it switches to catch-up, back to the real start of the show. Hold OK > Watch from the beginning\n\u25c0 \u25c0 goes back to the last channel, however you picked the new one\nA clean info bar with a sweeping line while a channel loads (no more pop-up or spinning circle)\nStream info shows the frame rate on every channel; Back closes it and stays on the channel\nHold OK on Recent > Clear recent channels\nHiding a channel or category keeps your place\nPressing Enter on the keyboard closes it and moves to Save\nWhat's new and update notes scroll with \u25b2\u25bc\nChannels with no guide show their own name instead of a 'no data' message\nFolders for all playlists show which playlist a channel is from\nSettings > Auto start (was Start with the Shield)\nPhones and tablets: tap the preview to watch, tap for buttons, swipe to change channel or rewind"
 }

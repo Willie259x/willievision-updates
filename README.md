@@ -49,6 +49,8 @@ The TV guide is the home screen:
   - Quick buttons: 🎬 **Movies**, 📺 **Series**, 🔍 **Search**, ⚙ **Settings**
   - Your **playlist name** button, to switch playlists in one press
   - Your categories: 🏆 **My Games**, ★ **Favorites**, 🕘 **Recent**, your own 📁 groups, 📂 folders for all playlists, and your provider's groups
+- **Full-width guide:** once you're in the guide, the left column slides away so the guide fills the screen. Press **◀** at the start of a row (or **Back**) to bring it back.
+- **Recent:** hold OK on 🕘 **Recent** → **Clear recent channels** to start fresh.
 - **Guide grid:** channel logos and names down the side, shows across. A line with the current time marks *now*, and the guide moves along with the clock so it always opens on what's on now. Live sports and news are tagged **LIVE** (change this in Settings → LIVE badge in the guide).
 
 ### Remote in the guide
@@ -75,7 +77,7 @@ The channel that's playing has a **▶** on its logo and its name in your accent
 | **OK** | Channel list |
 | **Hold OK** | Options: 🔊 audio track, 💬 subtitles / closed captions, 😴 sleep timer, stream info, record |
 | ◀ ▶ / Info | Now and next info bar |
-| **◀ twice** | Flip back to the previous channel |
+| **◀ twice** | Flip back to the previous channel — also when you picked the new one in the guide |
 | **▶ twice** | Stream info: resolution, frame rate, codec, bitrate, buffer and dropped frames |
 | ⏺ Record (or red button) | Record this channel now |
 | Menu / Guide | Back to the guide. With picture-in-picture on, the channel keeps playing in a corner. |
@@ -100,6 +102,7 @@ While you watch, WillieVision keeps the last **30 minutes** of the channel. It s
 - **⏪ / ⏩** jumps back or forward 30 seconds.
 - Once you're behind live, **◀ / ▶** jumps 10 seconds and **Back** returns to live.
 - A box at the top left shows how far behind live you are.
+- On channels with catch-up (⟲), you can rewind further than you've watched: WillieVision switches to the provider's catch-up and goes back to the real start of the show (or earlier). Rewind all the way forward, or press **Back**, to return to live. **Hold OK → ⟲ Watch from the beginning** jumps straight to the start of the show on now.
 
 ### ⟲ Catch-up
 
@@ -198,7 +201,7 @@ Settings opens as a panel on the right, in sections: **Look**, **Channels & guid
 | Refresh playlist | Download the channel list, movies and series again from your provider (new channels, new titles). Your favourites, hidden channels and groups are kept. |
 | Update TV guide | Download the latest TV guide now |
 | Check for updates | Download and install the newest WillieVision. Shows **New: v…** when an update is waiting. |
-| Start with the Shield | Open WillieVision automatically when the Shield turns on. Off unless you turn it on. The first time, Android asks you to allow WillieVision to "display over other apps": turn it on and press Back. |
+| Auto start | Open WillieVision automatically when your TV box turns on. Off unless you turn it on. The first time, Android asks you to allow WillieVision to "display over other apps": turn it on and press Back. |
 | Start-up screen | Open to the guide, to Favorites, or straight into the last channel full screen |
 | Picture-in-picture | Keep the channel playing in a corner while you browse the guide (if your box supports it) |
 | Auto-refresh | Refresh channels and guide every night (around 4 AM) or every 12 hours, even when the app is closed |
@@ -222,14 +225,23 @@ Settings opens as a panel on the right, in sections: **Look**, **Channels & guid
 
 ### 💾 Copying your setup to a second box
 
-1. On the box that's already set up: **⚙ Settings → Backup WillieVision → Send my setup to another Shield**. A 4-digit code appears.
-2. On the new box: **Backup WillieVision → Receive setup from another Shield**. Pick the first box and type the code.
+1. On the box that's already set up: **⚙ Settings → Backup WillieVision → Send my setup to another TV box**. A 4-digit code appears.
+2. On the new box: **Backup WillieVision → Receive setup from another TV box**. Pick the first box and type the code.
 
 ### Updates
 
 WillieVision looks for a new version when it opens, when you come back to the guide, and every few hours while it's on. When there is one, a card shows the new version number and what's new, with **Update now** or **Later**. Later means it asks again the next day. You can also check any time from **⚙ Settings → Check for updates**. After an update, a **✨ What's new** card lists the new features once.
 
 The first update asks you to allow WillieVision to install apps. Turn on **Allow from this source**, press Back, and choose Update again.
+
+---
+
+## Phones and tablets
+
+WillieVision is made for TV boxes, but also works by touch:
+- **Guide:** tap a channel to select it, tap again to watch. Tap the preview window to watch it full screen. Tap **Today** (top-left of the guide) to bring back the categories.
+- **Full screen:** tap to show the info bar with **Back**, **Channels**, **Options** and **⏯** buttons. Swipe up or down to change channel, swipe left or right to rewind or jump forward 30 seconds, and hold your finger on the picture for Options.
+- **Movies & Series:** tap for the player controls; an **Options** button (audio, subtitles, sleep timer) appears with them.
 
 ---
 
